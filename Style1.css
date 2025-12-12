@@ -1,0 +1,147 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html 
+{
+    height: 100%;
+    background-color: #030303;
+    font-family: "Merriweather", serif;
+}
+
+#Image-Div
+{
+    position: relative;
+    justify-content: space-between;
+    background-image: url('Fotos/WhatsApp Image 2024-10-25 at 17.35.39.jpeg');
+    padding: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: auto;
+    z-index: 0;
+}
+
+#One-Div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    color: white;
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    z-index: 3;
+}
+
+.Foto-Size
+{
+    width: 10vw;
+    height: 3vh;
+}
+
+.Nav-item 
+{
+    color: white;
+    transition: 0.3s;
+    font-size: clamp(20px, 6vw, 40px);
+}
+
+.Nav-item:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+
+#barlow-light 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#Vidio-Border
+{
+    display: flex;
+    position: absolute;
+    border: 1px solid wheat ;
+    width: 65vh;
+    height: 35vh;
+    top: 20%;
+    left: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1%;
+    border-radius: 3%;
+}
+
+.Vidio
+{
+    border-radius: 3%;
+}
+
+@media (min-width: 760px) and (max-width: 1600px) 
+{
+    body, html 
+    {
+        background-color: #030303;
+        font-family: "Merriweather", serif;
+    }
+
+    #Image-Div
+    {
+        position: relative;
+        justify-content: space-between;
+        background-image: url('Fotos/WhatsApp Image 2024-10-25 at 17.35.39.jpeg');
+        padding: 15%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        image-rendering: auto;
+        z-index: 0;
+    }
+    .Nav-item 
+    {
+        color: white;
+        transition: 0.3s;
+        font-size: clamp(13px, 3vw,19px);
+    }
+
+    #One-Div
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        color: white;
+        position: absolute;
+        left: 5vh;
+        top: 5vh;
+        z-index: 3;
+    }
+
+    #Vidio-Border
+    {  
+        display: flex;
+        position: absolute;
+        border: 1px solid wheat ;
+        width: 63vh;
+        height: 33vh;
+        top: 17%;
+        left: 5%;
+        align-items: center;
+        justify-content: center;
+        padding: 0.3%;
+        border-radius: 2%;
+    }
+
+    .Vidio
+    {
+        display: flex;
+        width: 60vh;
+        height: 30vh;
+        border-radius: 2%;
+    }
+}

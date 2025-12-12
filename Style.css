@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html 
+{
+    height: 100%;
+    background-color: #030303;
+    font-family: "Merriweather", serif;
+}
+
+#Image-Div
+{
+    position: relative;
+    justify-content: space-between;
+    background-image: url('Fotos/WhatsApp Image 2024-10-25 at 17.35.39.jpeg');
+    padding: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: auto;
+    z-index: 0;
+}
+
+.Nav-item 
+{
+    color: white;
+    transition: 0.3s;
+    font-size: clamp(15px, 3vw, 34px);
+}
+
+a
+{
+    color: white;
+}
+
+.Nav-item:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+
+
+.image::after 
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#One-Div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    color: white;
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    z-index: 3;
+}
+
+.Foto-Size
+{
+    width: 10vw;
+    height: 3vh;
+}
+
+#Two-Div
+{
+    position: absolute;
+    top:23vh;
+    left: 2vw;
+}
+
+.foto_first_size 
+{
+    height: 3vh;
+    width: 4vw;
+}
+
+#Three-Div
+{
+    display: flex;
+    padding: 1vh;
+    top: 70vh;
+    border: none;
+    flex-direction: row;
+    color: white;
+    gap: 2vw;
+    font-size: clamp(15px, 2.5vw, 25px);
+}
+
+.bas_rol_word 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    padding: 2vh;
+    color: white;
+    font-size: clamp(20px, 3vw, 40px);
+}
+
+#Main-Foto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    margin: 5vh;
+}
+
+#Img-For-P
+{
+    display: flex;
+    border-radius: 50%;
+    padding: 1vh;
+    border: 0.3vh solid #ffffff;
+}
+
+#size 
+{
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto_border
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 35vw;
+    height: 35vh;
+    background-color: #222831;
+    gap: 1vh;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+.in_border 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    gap: 0.9vh;
+    flex-direction: column;
+    background-color: #31363F;
+    border: none;
+    width: 97%;
+    height: 8vh;
+    font-size: clamp(14px, 2vw, 19px);
+    color: white;
+}
+
+#londrina-sketch-regular
+{
+    font-family: "Londrina Sketch", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rol_foto 
+{
+    display: flex;
+    width: 8vw;
+    height: 3vh;
+}
+
+.Time-box 
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+    box-shadow: 0 0.8vh 3vh rgba(0,0,0,0.1);
+    gap: 1vw;
+    font-size: clamp(16px, 2.5vw, 22px);
+    top: 40vh;
+    left: 1vw;
+}
+
+.block-title 
+{
+    color: wheat;
+    margin-bottom: 1vh;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    font-size: clamp(12px, 2vw, 25px);
+}
+
+.value 
+{
+    font-size: clamp(18px, 2.5vw, 25px);
+    font-weight: bold;
+    color: #FAF0E6;
+}
+
+.div1, .div2 
+{
+    display: flex;
+    gap: 0.8vw;
+}
+
+.word_in 
+{
+    display: flex;
+    font-size: clamp(16px, 2.2vw, 22px);
+}
+
+#barlow-light 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+#barlow-bold 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.barlow-light 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+#barlow-medium 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#barlow-regular 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#barlow-light 
+{
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+
+@media (min-width: 760px) and (max-width: 1600px) 
+{
+    body, html 
+    {
+        background-color: #030303;
+        font-family: "Merriweather", serif;
+    }
+
+    #Image-Div
+    {
+        position: relative;
+        justify-content: space-between;
+        background-image: url('Fotos/WhatsApp Image 2024-10-25 at 17.35.39.jpeg');
+        padding: 15%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        image-rendering: auto;
+        z-index: 0;
+    }
+    .Nav-item 
+    {
+        color: white;
+        transition: 0.3s;
+        font-size: clamp(14px, 4vw,16px);
+    }
+
+    #One-Div
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        color: white;
+        position: absolute;
+        left: 5vh;
+        top: 5vh;
+        z-index: 3;
+    }
+
+    #Two-Div
+    {
+        position: absolute;
+        top:24vh;
+        left: 2vw;
+        font-size: 7px;
+    }
+
+    #Three-Div
+    {
+        display: flex;
+        padding: 1vh;
+        top: 90vh;
+        border: none;
+        flex-direction: row;
+        color: white;
+        gap: 1vw;
+        font-size: clamp(12px, 0.5vw, 10px);
+    }
+    
+    .Time-box 
+    {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        padding: 1vh 1vw;
+        border-radius: 2vh;
+        box-shadow: 0 0.8vh 3vh rgba(0,0,0,0.1);
+        gap: 1vw;
+        font-size: clamp(7px, 0.5vw, 7px);
+        top: 45vh;
+        left: 1vw;
+    }
+    .block-title 
+    {
+        color: wheat;
+        margin-bottom: 1vh;
+        text-transform: uppercase;
+        letter-spacing: 0.2vw;
+        font-size: clamp(10px, 1vw, 12px);
+    }
+    .value 
+    {
+        font-size: clamp(10px, 1vw, 15px);
+        font-weight: bold;
+        color: #FAF0E6;
+    }
+    .bas_rol_word 
+    {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 1vh;
+        padding: 1vh;
+        color: white;
+        font-size: clamp(17px, 3vw, 10px);
+    }
+
+    #Main-Foto
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+        padding-bottom: 1vh;
+    }
+
+    #Img-For-P
+    {
+        display: flex;
+        border-radius: 50%;
+        padding: 1vh;
+        border: 0.3vh solid #ffffff;
+    }  
+    .word_in 
+    {
+        display: flex;
+        font-size: clamp(9px, 1.2vw, 6px);
+    }
+    .in_border 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1vh;
+        flex-direction: column;
+        background-color: #31363F;
+        border: none;
+        width: 80%;
+        height: 8vh;
+        font-size: clamp(14px, 2vw, 17px);
+        color: white;
+    }
+}
